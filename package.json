@@ -1,7 +1,7 @@
 {
   "name": "express-quickstart-package",
   "version": "0.0.1",
-  "description": "API QuickStarter is a basically a Express web framework organized with all the necessary features you need to start building your web applications.",
+  "description": "API QuickStarter is a basically a Express web application organized with all the necessary features you need to start building your web applications.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -31,7 +31,7 @@
   },
   "keywords": [
     "express",
-    "framework",
+    "application",
     "quickstart",
     "web",
     "app"
