@@ -1,5 +1,5 @@
 {
-  "name": "express-quickstart-framework",
+  "name": "express-quickstart-package",
   "version": "0.0.1",
   "description": "API QuickStarter is a basically a Express web framework organized with all the necessary features you need to start building your web applications.",
   "main": "index.js",
@@ -27,7 +27,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kharbanda14/express-quickstart-framework.git"
+    "url": "https://github.com/kharbanda14/express-quickstart-package.git"
   },
   "keywords": [
     "express",
@@ -37,7 +37,7 @@
     "app"
   ],
   "bugs": {
-    "url": "https://github.com/kharbanda14/express-quickstart-framework/issues"
+    "url": "https://github.com/kharbanda14/express-quickstart-package/issues"
   },
-  "homepage": "https://github.com/kharbanda14/express-quickstart-framework#readme"
+  "homepage": "https://github.com/kharbanda14/express-quickstart-package#readme"
 }
