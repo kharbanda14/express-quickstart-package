@@ -1,6 +1,6 @@
 {
   "name": "express-quickstart-package",
-  "version": "0.0.1",
+  "version": "0.0.1-beta",
   "description": "API QuickStarter is a basically a Express web application organized with all the necessary features you need to start building your web applications.",
   "main": "index.js",
   "scripts": {
