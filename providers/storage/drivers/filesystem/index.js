@@ -4,9 +4,8 @@ const crypto = require("crypto");
 const StorageFile = require("./File");
 
 class FileSystemStorage {
-  basePath = "";
-  folder = process.env.FILESYSTEM_STORAGE;
   constructor() {
+    this.folder = process.env.FILESYSTEM_STORAGE;
     this.basePath = path.join(process.cwd(), this.folder);
   }
 

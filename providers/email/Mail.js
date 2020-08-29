@@ -1,8 +1,13 @@
 const StorageFile = require("../storage/drivers/filesystem/File");
 
 module.exports = class Mail {
-  to = "";
-  subject = "";
+  constructor() {
+    this.to = "";
+    this.subject = "";
+    this.viewFile = "";
+    this.data = {};
+    this.attachments = [];
+  }
 
   text() {
     return "";
@@ -10,12 +15,6 @@ module.exports = class Mail {
   html() {
     return "";
   }
-
-  viewFile = "";
-
-  data = {};
-
-  attachments = [];
 
   /**
    * Add Attachment
